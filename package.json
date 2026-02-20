@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/ISOF-Despliegue/DSOFT#readme",
   "dependencies": {
-    "express": "^5.2.1",
-    "dotenv": "^16.4.0"
+    "dotenv": "^16.6.1",
+    "express": "^5.2.1"
   }
 }
