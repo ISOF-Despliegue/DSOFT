@@ -17,6 +17,14 @@ app.get('/calculadora/sumar', (req, res) => {
   res.json({ resultado });
 });
 
+app.get('/calculadora/restar', (req, res) => {
+  const { a, b } = req.query;
+
+  const resultado = Number(a) - Number(b);
+
+  res.json({ resultado });
+});
+
 app.listen(PORT, () => {
   console.log(`Servidor corriendo en puerto ${PORT}`);
 });
