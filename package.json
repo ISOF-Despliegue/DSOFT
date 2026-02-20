@@ -1,0 +1,26 @@
+{
+  "name": "dsoft",
+  "version": "1.0.0",
+  "description": "- Leonardo Ortega -",
+  "main": "src/app.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ISOF-Despliegue/DSOFT.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ISOF-Despliegue/DSOFT/issues"
+  },
+  "homepage": "https://github.com/ISOF-Despliegue/DSOFT#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "dotenv": "^16.4.0"
+  }
+}
