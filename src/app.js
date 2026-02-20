@@ -3,7 +3,7 @@ require('dotenv').config();
 const express = require('express');
 const app = express();
 
-const PORT = process.env.PORT || 8082;
+const PORT = process.env.PORT;
 
 app.get('/calculadora', (req, res) => {
   res.send('Servidor funcionando 🚀');
